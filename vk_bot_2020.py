@@ -8,13 +8,13 @@ import emoji
 import datetime
 from datetime import datetime
 
-token_becurators = "29865031c531b30c70c7784b6165108c94b1051ab767f610e59fb2b6dbb995dd054938acff27d879eee4f"
+token_becurators = "29865031c531b30c70c7784b*************************************************************"
 
 vk = vk_api.VkApi(token=token_becurators)
 
 vk._auth_token()
 
-id_becurators = 196896859
+id_becurators = int(*********)
 longpoll = VkBotLongPoll(vk, id_becurators)
 
 
@@ -61,7 +61,7 @@ while True:
                     vk.method(
                         "messages.send",
                         {
-                            "peer_id": 365835967,
+                            "peer_id": 36583****,
                             "message": f"@id{student_id}({full_name}) задал(а) вопрос\n\n{event.object.text}",
                             "random_id": 0,
                         },
@@ -69,7 +69,7 @@ while True:
                     vk.method(
                         "messages.send",
                         {
-                            "peer_id": 146934300,
+                            "peer_id": 14693****,
                             "message": f"@id{student_id}({full_name}) задал(а) вопрос\n\n{event.object.text}",
                             "random_id": 0,
                         },
@@ -77,7 +77,7 @@ while True:
                     vk.method(
                         "messages.send",
                         {
-                            "peer_id": 164098434,
+                            "peer_id": 16409****,
                             "message": f"@id{student_id}({full_name}) задал(а) вопрос\n\n{event.object.text}",
                             "random_id": 0,
                         },
@@ -85,7 +85,7 @@ while True:
                     vk.method(
                         "messages.send",
                         {
-                            "peer_id": 250006485,
+                            "peer_id": 25000****,
                             "message": f"@id{student_id}({full_name}) задал(а) вопрос\n\n{event.object.text}",
                             "random_id": 0,
                         },
@@ -93,7 +93,7 @@ while True:
                     vk.method(
                         "messages.send",
                         {
-                            "peer_id": 347556363,
+                            "peer_id": 34755****,
                             "message": f"@id{student_id}({full_name}) задал(а) вопрос\n\n{event.object.text}",
                             "random_id": 0,
                         },
@@ -101,7 +101,7 @@ while True:
                     vk.method(
                         "messages.send",
                         {
-                            "peer_id": 160858510,
+                            "peer_id": 16085****,
                             "message": f"@id{student_id}({full_name}) задал(а) вопрос\n\n{event.object.text}",
                             "random_id": 0,
                         },
@@ -109,7 +109,7 @@ while True:
                     vk.method(
                         "messages.send",
                         {
-                            "peer_id": 116727370,
+                            "peer_id": 11672****,
                             "message": f"@id{student_id}({full_name}) задал(а) вопрос\n\n{event.object.text}",
                             "random_id": 0,
                         },
@@ -117,7 +117,7 @@ while True:
                     vk.method(
                         "messages.send",
                         {
-                            "peer_id": 150506560,
+                            "peer_id": 15050****,
                             "message": f"@id{student_id}({full_name}) задал(а) вопрос\n\n{event.object.text}",
                             "random_id": 0,
                         },
@@ -125,7 +125,7 @@ while True:
                     vk.method(
                         "messages.send",
                         {
-                            "peer_id": 184464672,
+                            "peer_id": 18446****,
                             "message": f"@id{student_id}({full_name}) задал(а) вопрос\n\n{event.object.text}",
                             "random_id": 0,
                         },
@@ -133,7 +133,7 @@ while True:
                     vk.method(
                         "messages.send",
                         {
-                            "peer_id": 89674248,
+                            "peer_id": 8967****,
                             "message": f"@id{student_id}({full_name}) задал(а) вопрос\n\n{event.object.text}",
                             "random_id": 0,
                         },
@@ -141,7 +141,7 @@ while True:
                     vk.method(
                         "messages.send",
                         {
-                            "peer_id": 66202077,
+                            "peer_id": 6620****,
                             "message": f"@id{student_id}({full_name}) задал(а) вопрос\n\n{event.object.text}",
                             "random_id": 0,
                         },
@@ -149,7 +149,7 @@ while True:
                     vk.method(
                         "messages.send",
                         {
-                            "peer_id": 64824451,
+                            "peer_id": 6482****,
                             "message": f"@id{student_id}({full_name}) задал(а) вопрос\n\n{event.object.text}",
                             "random_id": 0,
                         },
@@ -157,7 +157,7 @@ while True:
                     vk.method(
                         "messages.send",
                         {
-                            "peer_id": 230443912,
+                            "peer_id": 23044****,
                             "message": f"@id{student_id}({full_name}) задал(а) вопрос\n\n{event.object.text}",
                             "random_id": 0,
                         },
@@ -165,7 +165,7 @@ while True:
                     vk.method(
                         "messages.send",
                         {
-                            "peer_id": 176439458,
+                            "peer_id": 17643****,
                             "message": f"@id{student_id}({full_name}) задал(а) вопрос\n\n{event.object.text}",
                             "random_id": 0,
                         },
@@ -173,7 +173,7 @@ while True:
                     vk.method(
                         "messages.send",
                         {
-                            "peer_id": 63664093,
+                            "peer_id": 6366****,
                             "message": f"@id{student_id}({full_name}) задал(а) вопрос\n\n{event.object.text}",
                             "random_id": 0,
                         },
@@ -181,7 +181,7 @@ while True:
                     vk.method(
                         "messages.send",
                         {
-                            "peer_id": 300759511,
+                            "peer_id": 30075****,
                             "message": f"@id{student_id}({full_name}) задал(а) вопрос\n\n{event.object.text}",
                             "random_id": 0,
                         },
@@ -189,7 +189,7 @@ while True:
                     vk.method(
                         "messages.send",
                         {
-                            "peer_id": 60432017,
+                            "peer_id": 6043****,
                             "message": f"@id{student_id}({full_name}) задал(а) вопрос\n\n{event.object.text}",
                             "random_id": 0,
                         },
@@ -197,7 +197,7 @@ while True:
                     vk.method(
                         "messages.send",
                         {
-                            "peer_id": 206822052,
+                            "peer_id": 20682****,
                             "message": f"@id{student_id}({full_name}) задал(а) вопрос\n\n{event.object.text}",
                             "random_id": 0,
                         },
